@@ -64,7 +64,7 @@ class ContentPage extends StatelessWidget {
                 children: [
                   Container(
                     margin: const EdgeInsets.all(10),
-                    width: 150,
+                    width: 148,
                     child: Row(
                       children: [
                         Column(
