@@ -51,7 +51,7 @@ class ContentPage extends StatelessWidget {
         leading: const Icon(Icons.arrow_back_ios),
         centerTitle: false,
         title: const Text(
-          'Wanda.S',
+          'Luna.S',
           style: TextStyle(fontSize: 24),
         ),
       ),
@@ -64,7 +64,7 @@ class ContentPage extends StatelessWidget {
                 children: [
                   Container(
                     margin: const EdgeInsets.all(10),
-                    width: 148,
+                    width: 155,
                     child: Row(
                       children: [
                         Column(
@@ -76,14 +76,14 @@ class ContentPage extends StatelessWidget {
                                   'https://img.freepik.com/free-photo/portrait-expressive-young-woman_1258-48167.jpg'),
                             ),
                             Text(
-                              'Wanda S.',
+                              'Luna S.',
                               style: TextStyle(
                                   fontSize: 20,
                                   color: Colors.grey.shade800,
                                   fontWeight: FontWeight.w600),
                             ),
                             Text(
-                              'Photographer / NewYork',
+                              'Photographer / California',
                               style: TextStyle(
                                   fontSize: 12,
                                   color: Colors.red.shade800,
