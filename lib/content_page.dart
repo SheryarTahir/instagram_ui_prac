@@ -175,9 +175,9 @@ class ContentPage extends StatelessWidget {
               ),
             ),
             const Divider(),
-            SizedBox(
+            const SizedBox(
               height: 60,
-              child: const DefaultTabController(
+              child: DefaultTabController(
                 length: 3,
                 child: TabBar(tabs: [
                   Tab(
@@ -192,9 +192,9 @@ class ContentPage extends StatelessWidget {
                 ]),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 60,
-              child: const DefaultTabController(
+              child: DefaultTabController(
                 length: 4,
                 child: TabBar(tabs: [
                   Icon(Icons.grid_view_rounded),
