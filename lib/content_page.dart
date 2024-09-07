@@ -175,7 +175,7 @@ class ContentPage extends StatelessWidget {
               ),
             ),
             const Divider(),
-            Container(
+            SizedBox(
               height: 60,
               child: const DefaultTabController(
                 length: 3,
@@ -192,7 +192,7 @@ class ContentPage extends StatelessWidget {
                 ]),
               ),
             ),
-            Container(
+            SizedBox(
               height: 60,
               child: const DefaultTabController(
                 length: 4,
